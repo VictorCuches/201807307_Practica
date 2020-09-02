@@ -1,2 +1,3 @@
-# 201807307_Practica
+# MANUAL DE USUARIO SimpleQL
 Practica del curso Lenguajes formales y de programación 
+
