@@ -6,4 +6,6 @@ SimpleQL es un lenguaje de consultas que funciona únicamente a nivel de consola
 - Todos los comandos y campos son *case insensitive* esto quiere decir que si el usuario introduce el comando "caRGar" el programa identificara que trata del comando "CARGAR".
 - La extensión de archivos que maneja SimpleQL es .json, la estructura de como deben ser los archivos se mostrara al final de este manual. 
 
+## Funcionamiento 
+Se le presentara un menu al iniciar en el que podra escoger entre los comandos CARGAR y SALIR. 
 
