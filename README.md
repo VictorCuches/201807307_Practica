@@ -57,5 +57,6 @@ Este comando permite crear un reporte en html que contiene la cantidad de regist
 
 ## Apendice
 Los archivos con sus respectivos registros y atributos utilizados, en los ejemplos para demostrar la funcionalidad de cada comando son los siguientes: 
+
 ![](image/datos.png)
 
