@@ -16,3 +16,9 @@ Al iniciar el programa Este comando permitirá la carga de diferentes archivos a
 Al seleccionar este comando el usuario podra utilizar los otros comandos disponibles en el programa, asimismo se le presentara una lista de estos y esperara su lectura. 
 
 ![](image/menu_cargar.jpg)
+
+##### SELECCIONAR
+Permite seleccionar uno o más registros o atributos de los mismos con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
+###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
+
+![](image/select.jpg)
