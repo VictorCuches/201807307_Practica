@@ -9,3 +9,4 @@ SimpleQL es un lenguaje de consultas que funciona únicamente a nivel de consola
 ## Funcionamiento 
 Se le presentara un menu al iniciar en el que podra escoger entre los comandos CARGAR y SALIR. 
 
+![](image/funcionamiento_1.jpg)
