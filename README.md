@@ -12,4 +12,4 @@ Al iniciar el programa Este comando permitirá la carga de diferentes archivos a
 ###### Ejemplo: CARGAR archivo1, archivo2, archivo3, …… archivoN
 
 
-![](image/cargar.jpg)
+![](image/cargar_.jpg)
