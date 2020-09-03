@@ -19,12 +19,12 @@ Al seleccionar este comando el usuario podra utilizar los otros comandos disponi
 Permite seleccionar uno o más registros o atributos que se encuentran en los archivos que cargamos con anterioridad con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
 ###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
 ![](image/select.jpg)
-[TOC]
-#### SELECCIONAR *
+
+####- SELECCIONAR *
 Si el usuario selecciona este comando en lugar de nombrar los atributos uno por uno, entonces automáticamente se seleccionan todos los atributos. Puede solicitarse cualquier
 combinación de atributos, siempre y cuando no se repitan y pertenezcan a los atributos listados en el archivo JSON.
 ###### Ejemplo: SELECCIONAR * DONDE nombre = "registro 15"
-![](image/select.jpg)
+![](image/select2.jpg)
 
 ### **MAXIMO**
 ### **MINIMO**
