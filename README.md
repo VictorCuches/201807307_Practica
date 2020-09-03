@@ -55,3 +55,7 @@ Permite contar el número de registros que se han cargado a memoria.
 Este comando permite crear un reporte en html que contiene la cantidad de registros que el usuario ingrese.
 ###### Ejemplo: REPORTAR 5
 
+## Apendice
+Los archivos con sus respectivos registros y atributos utilizados, en los ejemplos para demostrar la funcionalidad de cada comando son los siguientes: 
+![](image/datos.png)
+
