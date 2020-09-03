@@ -60,3 +60,5 @@ Los archivos con sus respectivos registros y atributos utilizados, en los ejempl
 
 ![](image/datos.png)
 
+*Esta misma estructura deben tener los archivos .json a utilizar en el programa*
+
