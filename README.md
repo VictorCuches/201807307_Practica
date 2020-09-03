@@ -33,21 +33,24 @@ combinación de atributos, siempre y cuando no se repitan y pertenezcan a los at
 Este comando permite encontrar el valor máximo que se encuentre en los atributos de los registros de los archivos cargados a memoria.
 El comando MAXIMO solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
 ###### Ejemplo: MAXIMO edad
-
+![](image/max.jpg)
 
 ### **MINIMO**
 Este comando permite encontrar el valor minimo que se encuentre en los atributos de los registros de los archivos cargados a memoria.
 El comando MINIMO solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
 ###### Ejemplo: MINIMO promedio
+![](image/min.jpg)
 
 ### **SUMA**
 Este comando permite sumar todos los valroes que se encuentren en los atributos de los registros de los archivos cargados a memoria.
 El comando SUMA solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
 ###### Ejemplo: MAXIMO edad
+![](image/suma.jpg)
 
 ### **CUENTA**
 Permite contar el número de registros que se han cargado a memoria.
 ###### Ejemplo: CUENTA 
+![](image/cuenta.jpg)
 ### **REPORTAR**
 Este comando permite crear un reporte en html que contiene la cantidad de registros que el usuario ingrese.
 ###### Ejemplo: REPORTAR 5
