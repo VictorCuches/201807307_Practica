@@ -17,6 +17,7 @@ Al seleccionar este comando el usuario podra utilizar los otros comandos disponi
 
 ### **SELECCIONAR**
 Permite seleccionar uno o más registros o atributos que se encuentran en los archivos que cargamos con anterioridad con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
+Para utilizar un nombre en una condición este siempre debe venir dentro de comillas.
 ###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
 ![](image/select.jpg)
 
@@ -27,7 +28,25 @@ combinación de atributos, siempre y cuando no se repitan y pertenezcan a los at
 ![](image/select2.jpg)
 
 ### **MAXIMO**
+Este comando permite encontrar el valor máximo que se encuentre en los atributos de los registros de los archivos cargados a memoria.
+El comando MAXIMO solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
+###### Ejemplo: MAXIMO edad
+
+
 ### **MINIMO**
+Este comando permite encontrar el valor minimo que se encuentre en los atributos de los registros de los archivos cargados a memoria.
+El comando MINIMO solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
+###### Ejemplo: MINIMO promedio
+
 ### **SUMA**
+Este comando permite sumar todos los valroes que se encuentren en los atributos de los registros de los archivos cargados a memoria.
+El comando SUMA solo se puede seleccionar con los atributos "edad" o "promedio" si el usario ingresa otro atributo se le avisara. 
+###### Ejemplo: MAXIMO edad
+
 ### **CUENTA**
+Permite contar el número de registros que se han cargado a memoria.
+###### Ejemplo: CUENTA 
 ### **REPORTAR**
+Este comando permite crear un reporte en html que contiene la cantidad de registros que el usuario ingrese.
+###### Ejemplo: REPORTAR 5
+
