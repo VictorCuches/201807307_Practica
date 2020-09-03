@@ -7,7 +7,7 @@ SimpleQL es un lenguaje de consultas que funciona únicamente a nivel de consola
 - La extensión de archivos que maneja SimpleQL es .json, la estructura de como deben ser los archivos se mostrara al final de este manual. 
 
 ## Comandos
-##### CARGAR 
+### **CARGAR**
 Al iniciar el programa Este comando permitirá la carga de diferentes archivos a memoria, el único parámetro que lo conforma es una lista de direcciones a los archivos que cargará a memoria. El usuario no podra realizar el funcionamiento de otro comando sin cargar archivos. 
 ###### Ejemplo: CARGAR archivo1, archivo2, archivo3, …… archivoN
 
@@ -17,8 +17,14 @@ Al seleccionar este comando el usuario podra utilizar los otros comandos disponi
 
 ![](image/menu_cargar.jpg)
 
-##### SELECCIONAR
+### **SELECCIONAR**
 Permite seleccionar uno o más registros o atributos de los mismos con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
 ###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
 
 ![](image/select.jpg)
+
+### **MAXIMO**
+### **MINIMO**
+### **SUMA**
+### **CUENTA**
+### **REPORTAR**
