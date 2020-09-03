@@ -10,9 +10,11 @@ SimpleQL es un lenguaje de consultas que funciona únicamente a nivel de consola
 ### **CARGAR**
 Al iniciar el programa Este comando permitirá la carga de diferentes archivos a memoria, el único parámetro que lo conforma es una lista de direcciones a los archivos que cargará a memoria. El usuario no podra realizar el funcionamiento de otro comando sin cargar archivos. 
 ###### Ejemplo: CARGAR archivo1, archivo2, archivo3, …… archivoN
+
 ![](image/cargar_.jpg)
 
 Al seleccionar este comando el usuario podra utilizar los otros comandos disponibles en el programa, asimismo se le presentara una lista de estos y esperara su lectura. 
+
 ![](image/menu_cargar.jpg)
 
 ### **SELECCIONAR**
