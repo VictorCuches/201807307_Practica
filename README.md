@@ -10,17 +10,20 @@ SimpleQL es un lenguaje de consultas que funciona únicamente a nivel de consola
 ### **CARGAR**
 Al iniciar el programa Este comando permitirá la carga de diferentes archivos a memoria, el único parámetro que lo conforma es una lista de direcciones a los archivos que cargará a memoria. El usuario no podra realizar el funcionamiento de otro comando sin cargar archivos. 
 ###### Ejemplo: CARGAR archivo1, archivo2, archivo3, …… archivoN
-
 ![](image/cargar_.jpg)
 
 Al seleccionar este comando el usuario podra utilizar los otros comandos disponibles en el programa, asimismo se le presentara una lista de estos y esperara su lectura. 
-
 ![](image/menu_cargar.jpg)
 
 ### **SELECCIONAR**
-Permite seleccionar uno o más registros o atributos de los mismos con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
+Permite seleccionar uno o más registros o atributos que se encuentran en los archivos que cargamos con anterioridad con base en condiciones simples que pueden aplicarse a los atributos de los mismos. Se puede seleccionar uno o cuatro registros utilizando como condicion cualquiera de estos registros tambien, sino esta no se encuentra se mostrara un mensaje de aviso. 
 ###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
-
+![](image/select.jpg)
+[TOC]
+#### SELECCIONAR *
+Si el usuario selecciona este comando en lugar de nombrar los atributos uno por uno, entonces automáticamente se seleccionan todos los atributos. Puede solicitarse cualquier
+combinación de atributos, siempre y cuando no se repitan y pertenezcan a los atributos listados en el archivo JSON.
+###### Ejemplo: SELECCIONAR * DONDE nombre = "registro 15"
 ![](image/select.jpg)
 
 ### **MAXIMO**
