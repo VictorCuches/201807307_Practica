@@ -20,7 +20,7 @@ Permite seleccionar uno o más registros o atributos que se encuentran en los ar
 ###### Ejemplo: SELECCIONAR nombre, edad, promedio DONDE edad = 80
 ![](image/select.jpg)
 
-####- SELECCIONAR *
+#### - SELECCIONAR *
 Si el usuario selecciona este comando en lugar de nombrar los atributos uno por uno, entonces automáticamente se seleccionan todos los atributos. Puede solicitarse cualquier
 combinación de atributos, siempre y cuando no se repitan y pertenezcan a los atributos listados en el archivo JSON.
 ###### Ejemplo: SELECCIONAR * DONDE nombre = "registro 15"
